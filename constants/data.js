@@ -1,37 +1,35 @@
-</*projects 웹페이지 내용*/></>;
+</*완료 / projects 웹페이지 내용*/></>;
 const userData = {
   githubUsername: 'kks0509',
   name: 'Home',
   avatarUrl: '/avatar.png',
   email: 'ks509koo@gmail.com',
   phone: '010-8808-5710',
-  address: '??',
   projects: [
     {
-      title: 'Tailwind Master Kit',
-      link: 'https://tailwindmasterkit.com',
-      imgUrl: '/tmk.jpg',
+      title: 'Cocoa Talk',
+      link: 'https://github.com/kks0509/cocoa',
+      imgUrl: '/cocoa.jpg',
     },
     {
-      title: 'PlaceholderTech',
-      link: 'https://placeholdertech.in',
-      imgUrl: '/placeholdertech.png',
+      title: 'Clerk',
+      link: 'https://clerk-auth-lemon.vercel.app/',
+      imgUrl: '/clerk.png',
     },
     {
-      title: 'Portfolio',
-      link: 'https://manuarora.in',
-      imgUrl: '/portfolio.png',
-    },
-    {
-      title: 'CovidRescue',
-      link: 'https://covidrescue.co.in',
-      imgUrl: '/covidrescue.png',
+      title: 'To be added',
+      link: '',
+      imgUrl: '/add.jpg',
     },
   ],
   about: {
-    title: '안녕하세요! 중부대학교 정보보호학과 22학번 구경섭입니다!',
+    title: '안녕하세요!😃 중부대학교 정보보호학과 22학번 구경섭입니다!',
     description: [
-      `저는 어릴 때부터 컴퓨터를 사용할 일이 많아 관련 장래희망을 준비해오던 중...`,
+      '저는 어릴 때부터 컴퓨터를 사용하는 것을 좋아해왔고, 그 관심을 바탕으로 ㅤㅤㅤ정보보호학과로 진학하게 되었습니다.',
+      '보안과 관련된 주제에 대해 학습하고 실제로 적용하는 것을 즐기며, 항상 최신 보안 동향을 파악하려 노력합니다.',
+      '또한, 프로그래밍 언어와 웹 개발에도 관심을 가지고 있으며, 개인 프로젝트와 웹 개발을 통해 기술을을 향상시키고 있습니다.',
+      '여가 시간에는 독서, 영화 감상, 그리고 가끔 프로그래밍 프로젝트를 만들며 시간을 보내곤 합니다.',
+      '언제든지 새로운 기회와 도전을 환영합니다!',
     ],
   },
   experience: [

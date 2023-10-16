@@ -1,3 +1,4 @@
+</*-----완료------*/></>;
 import React from 'react';
 import userData from '@constants/data';
 
@@ -19,10 +20,7 @@ export default function Footer() {
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg
-                xmlns="https://www.google.com/webhp?hl=ko&sa=X&ved=0ahUKEwilm6aWuOXyAhUUaN4KHWCCDQkQPAgI"
-                width="16"
-                height="16"
-                fill="currentColor"
+                xmlns="/instagram.png"
                 className="bi bi-instagram h-5 w-5"
                 viewBox="0 0 16 16"
               >

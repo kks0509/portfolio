@@ -1,3 +1,4 @@
+</*완료*/></>;
 import React from 'react';
 import userData from '@constants/data';
 
@@ -24,18 +25,14 @@ export default function AboutMe() {
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                설명1
+                contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                about - 설명1 swear.
-              </p>
-            </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                설명2
-              </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                about - 설명2
+                📱010-8808-5710
+                <br />
+                📧ks509koo@gmail.com
+                <br />
+                📷instagram - @ks509koo
               </p>
             </div>
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
@@ -82,10 +79,11 @@ export default function AboutMe() {
               ⬇Used as the main
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              <img src="js.png" className="h-20 w-20 mx-4 my-4" />
+              <img src="css.png" className="h-20 w-20 mx-4 my-4" />
+              <img src="html.png" className="h-20 w-20 mx-4 my-4" />
+              <img src="python.png" className="h-20 w-20 mx-4 my-4" />
+              <img src="c.png" className="h-20 w-20 mx-4 my-4" />
             </div>
           </div>
         </div>

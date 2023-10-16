@@ -8,27 +8,19 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: '92212702 구경섭',
+    title: 'Team',
     description: `현재 next.js 웹사이트 제작 관련 공부중.`,
     image: '/avatar.png',
     type: 'website',
     ...customMeta,
   };
+  </*홈페이지 상단 표시*/></>;
   return (
     <div>
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta
-          property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
-        />
-        <link
-          rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
-        />
-
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}

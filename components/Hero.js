@@ -1,3 +1,4 @@
+</*------완료------*/></>;
 import React from 'react';
 import { RoughNotationGroup } from 'react-rough-notation';
 import { RainbowHighlight } from './RainbowHighlight';
@@ -31,9 +32,7 @@ export default function Hero() {
         <div className="w-2/5 ">
           <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
           <div className="flex flex-row justify-between mt-4">
-            <div className="flex flex-row space-x-4">
-              <svg xmlns="http://www.w3.org/2000/svg"></svg>
-            </div>
+            <div className="flex flex-row space-x-4"></div>
           </div>
         </div>
       </div>
