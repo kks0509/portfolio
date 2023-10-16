@@ -86,9 +86,7 @@ export default function Navbar() {
                 fill="currentColor"
                 className="bi bi-arrow-down inline-block h-3 w-3"
                 viewBox="0 0 16 16"
-              >
-                {' '}
-              </svg>
+              ></svg>
             )}
           </Link>
           <Link

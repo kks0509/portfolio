@@ -21,13 +21,13 @@ export default function Projects() {
             <img src="/p2.png" alt="Your Image" width={250} height={200} />
             <br />
             <br />
-            <img src="/p3.jpg" alt="Your Image" width={250} height={200} />
+            <img src="/hh.jpg" alt="Your Image" width={250} height={200} />
             <br />
             <br />
             <img src="/p4.jpg" alt="Your Image" width={250} height={200} />
             <br />
             <br />
-            <img src="/p5.png" alt="Your Image" width={250} height={200} />
+            <img src="/hh.jpg" alt="Your Image" width={250} height={200} />
             <br />
           </div>
 
