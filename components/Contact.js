@@ -8,6 +8,9 @@ export default function Projects() {
           Team
         </h1>
       </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src="pp.png" className="h-100 w-100 mx-4 my-8" />
+      </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-5 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Left Content */}
@@ -26,7 +29,6 @@ export default function Projects() {
             <br />
             <img src="/p5.png" alt="Your Image" width={250} height={200} />
             <br />
-            <img src="/pp.png" alt="Your Image" width={2000} height={200} />
           </div>
 
           {/* Right Content (Comments) */}
