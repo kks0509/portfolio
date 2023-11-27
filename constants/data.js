@@ -1,7 +1,7 @@
 </*완료 / projects 웹페이지 내용*/></>;
 const userData = {
   githubUsername: 'kks0509',
-  name: 'Home',
+  name: 'Portfolio',
   avatarUrl: '/avatar.png',
   email: 'ks509koo@gmail.com',
   phone: '010-8808-5710',

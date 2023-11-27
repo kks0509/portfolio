@@ -1,14 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
 export default function ContainerBlock({ children, ...customMeta }) {
-  const router = useRouter();
-
   const meta = {
-    title: 'About Me',
+    title: 'Team',
     description: `현재 next.js 웹사이트 제작 관련 공부중.`,
     image: '/avatar.png',
     type: 'website',
